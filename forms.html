@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+</head>
+<body>
+    <h2>Prvo pitanje</h2>
+    <form action="">
+        <h4>Koja je najbrza kopnena zivotinja?</h4>
+        <input type="radio" name="brzina" value="jaguar"/>Jaguar
+        <input type="radio" name="brzina" value="lav"/>Lav
+        <input type="radio" name="brzina" value="gepard"/>Gepard
+    </form>
+    <h2>Drugo pitanje</h2>
+    <form action="">
+        <h4>Koliko automobil moze da ima vrata</h4>
+        <input type="checkbox" name="broj" value="2"/>2
+        <input type="checkbox" name="broj" value="4"/>4
+        <input type="checkbox" name="broj" value="6"/>6
+    </form>
+    <h2>Trece pitanje</h2>
+        <h4>Da li imate neki komentar?</h4>
+        <form action="">
+            <textarea name="komentar" cols="30" rows="10" placeholder="Vas komentar"></textarea>
+            <input type="submit" value="Posalji">
+        </form>
+    <h2>Kada ste rodjeni?</h2>
+   
+    <select name="mesec" id="">
+            <option value="januar">Januar</option>
+            <option value="februar">Februar</option>
+            <option value="mart">Mart</option>
+        </select>
+        <select name="dan" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <select name="godina" id="">
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+        </select>
+    <h2>Koji je najzastupljeniji programski jezik? (mozete obeleziti vise odgovora)</h2>
+    <select name="kategorije" id="" size="3" multiple="multiple">
+            <option value="Javascript">Javascript</option>
+            <option value="C++">C++</option>
+            <option value="Java">Java</option>
+    </select>
+</body>
+</html>

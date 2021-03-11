@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-set</title>
+</head>
+<body>
+    <h1>CATERING SERVICES</h1>
+    <fieldset>
+        <legend>Personal data</legend>
+        <label>
+            Name <br>
+            <input type="text" name="name" placeholder="Name">
+        </label>
+        <label>
+            <br> Email <br>
+            <input type="email" name="email" placeholder="Enter email">
+        </label>
+        <label>
+            <br> Phone <br>
+            <input type="text" name="number" placeholder="Number">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Location</legend>
+        <label>
+            City <br>
+            <input type="text" name="city" placeholder="City">
+        </label>
+        <label>
+            <br> Street <br>
+            <input type="text" name="street" placeholder="Street">
+        </label>
+        <label>
+            <br> Street number <br>
+            <input type="text" name="street-number" maxlength="15" placeholder="Street number">
+        </label>
+        
+    </fieldset>
+    <fieldset>
+        <legend>Event info</legend>
+        <label>
+            <select name="event" size="3" multiple="multiple">
+                <option value="Birthday">Birthday</option>
+                <option value="Wedding" selected="selected">Wedding</option>
+                <option value="Company">Company</option>
+            </select>
+        </label>
+        <label>
+            <br>Expected guests  <br>
+            <input type="text" placeholder="150">
+        </label>
+    </fieldset>
+</body>
+</html>
